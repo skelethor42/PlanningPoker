@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require('../app');   //Meine Hauptfunktion
+var debug = require('debug')('PlanningPokerRestApi:server');  //Modul zum debuggen
